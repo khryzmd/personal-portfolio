@@ -1,0 +1,41 @@
+/* 
+Off white dark: #5e5e5e 
+Off white light: #f0f0f0
+Dark Blue: #1E2F53 
+*/
+
+body {
+  background-color: #f0f0f0;
+  font-family: "Overpass", sans-serif;
+  color: #5e5e5e;
+}
+
+.custom-color-ow {
+  color: #5e5e5e;
+}
+
+.custom-color-db {
+  color: #1e2f53;
+}
+
+.custom-color-owl {
+    color: #f0f0f0 !important;
+}
+
+#about p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+#skills p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.zoom {
+  transition: 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
