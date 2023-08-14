@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khryzmiel Dabu</title>
+
+    <!-- Bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Nav Bar Section -->
+    <section id="nav-bar">
+      <nav
+        class="container nav fs-5 fw-light custom-color-ow pt-5 d-none d-sm-flex"
+      >
+        <a
+          class="nav-link active fw-lighter text-reset zoom"
+          aria-current="page"
+          href="#"
+          >Home</a
+        >
+        <a class="nav-link fw-lighter text-reset zoom" href="#about">About</a>
+        <a class="nav-link fw-lighter text-reset zoom" href="#projects"
+          >Projects</a
+        >
+        <a class="nav-link fw-lighter text-reset zoom" href="#contact"
+          >Contact</a
+        >
+      </nav>
+      <!-- mobile view start -->
+      <div
+        class="nav fs-5 fw-light custom-color-ow pt-3 d-flex d-sm-none justify-content-center gap-3"
+      >
+        <a
+          class="nav-link active fw-lighter text-reset zoom px-0"
+          aria-current="page"
+          href="#"
+          >Home</a
+        >
+        <a class="nav-link fw-lighter text-reset zoom px-0" href="#about"
+          >About</a
+        >
+        <a class="nav-link fw-lighter text-reset zoom px-0" href="#projects"
+          >Projects</a
+        >
+        <a class="nav-link fw-lighter text-reset zoom px-0" href="#contact"
+          >Contact</a
+        >
+      </div>
+      <!-- mobile view end -->
+    </section>
+    <!-- Home Section -->
+    <section id="home">
+      <div class="container">
+        <div class="row align-items-end d-none d-sm-flex" style="height: 300px">
+          <div>
+            <h1 class="display-3 fw-medium custom-color-db">
+              Hi, I'm Khryzmiel Dabu
+            </h1>
+            <p class="fs-4">A Web Developer and Mechanical Engineer</p>
+          </div>
+        </div>
+        <!-- mobile view start-->
+        <div class="row align-items-end d-flex d-sm-none" style="height: 400px">
+          <div class="pb-5 text-center">
+            <h1 class="display-3 fw-medium custom-color-db">
+              Hi, <br />
+              I'm Khryzmiel Dabu
+            </h1>
+            <p style="font-size: 18px">
+              A Web Developer and Mechanical Engineer
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- mobile view end -->
+      <div class="container-fluid">
+        <div
+          class="row justify-content-end align-items-center"
+          style="height: 350px"
+        >
+          <div class="col-lg-8 col-md-10 p-0">
+            <img
+              src="./Images/robotic-arm.png"
+              style="transform: scaleX(-1)"
+              alt="robotic-arm"
+              class="img-fluid"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+      <div class="container my-5 pb-5">
+        <div class="text-dark opacity-50">
+          <hr />
+        </div>
+        <div class="row justify-content-evenly my-5 py-5">
+          <div class="col-md-10 col-lg-8 col-xl-5 align-self-center p-5">
+            <img
+              src="./Images/myself.jpg"
+              alt="myself"
+              class="img-fluid shadow rounded-circle"
+            />
+          </div>
+          <div class="col-md-10 col-lg-10 col-xl-6 align-self-center px-3">
+            <h2 class="custom-color-db d-none d-xl-flex">About Me</h2>
+            <h2
+              class="custom-color-db d-flex d-xl-none justify-content-center my-4"
+            >
+              About Me
+            </h2>
+            <p style="font-size: 1.25rem">
+              I am a versatile Mechanical Engineer with a passion for
+              technology, specializing in Software Engineering with a focus on
+              web development. With a strong foundation in engineering
+              principles, I apply analytical thinking and problem-solving skills
+              to craft dynamic and user-friendly websites.
+            </p>
+            <p style="font-size: 1.25rem">
+              Committed to continuous growth and staying at the forefront of web
+              development trends, I aim to connect and engage with like-minded
+              professionals in both the vibrant web development community and
+              the broader field of software engineering.
+            </p>
+            <a
+              class="btn btn-dark fs-5 pt-2 pb-1 px-3 d-xl-inline-flex align-items-center d-none border border-dark btn-outline-light"
+              href="https://www.linkedin.com/in/khryzmd/"
+              role="button"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                class="bi bi-linkedin align-self-start me-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                />
+              </svg>
+              Connect with me
+            </a>
+            <!-- mobile view start-->
+            <div>
+              <div class="d-flex justify-content-center">
+                <a
+                  class="btn btn-dark fs-5 pt-2 pb-1 px-3 d-inline-flex align-items-center d-xl-none border border-dark btn-outline-light"
+                  href="https://www.linkedin.com/in/khryzmd/"
+                  role="button"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-linkedin align-self-start me-2"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                    />
+                  </svg>
+                  Connect with me
+                </a>
+              </div>
+            </div>
+            <!-- mobile view end -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container text-center mb-5 pb-5">
+        <div class="row align-items-between mb-5 pb-5">
+          <h2 class="custom-color-db h-auto pb-5">Skills</h2>
+          <p class="pb-5">
+            I use various languages and tools to craft dynamic and user-friendly
+            websites.
+          </p>
+          <div class="row p-4 m-0 justify-content-evenly">
+            <img
+              src="./Images/html5.png"
+              alt="html5"
+              class="object-fit-md-contain w-auto py-2 px-0 zoom"
+              style="height: 125px"
+            />
+            <img
+              src="./Images/css3.png"
+              alt="css3"
+              class="object-fit-md-contain w-auto py-2 px-0 zoom"
+              style="height: 125px"
+            />
+            <img
+              src="./Images/js.png"
+              alt="javascript"
+              class="object-fit-md-contain w-auto py-2 px-0 zoom"
+              style="height: 125px"
+            />
+            <img
+              src="./Images/bootstrap.png"
+              alt="bootstrap"
+              class="object-fit-md-contain w-auto py-2 px-0 zoom"
+              style="height: 125px"
+            />
+            <img
+              src="./Images/vscode.png"
+              alt="visual studio code"
+              class="object-fit-md-contain w-auto py-2 px-0 zoom"
+              style="height: 125px"
+            />
+            <img
+              src="./Images/github.png"
+              alt="github"
+              class="object-fit-md-contain w-auto py-2 px-0 zoom"
+              style="height: 125px"
+            />
+          </div>
+
+          <p class="pt-5 mt-3">
+            Living, learning, and leveling up one day at a time.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="text-dark opacity-50">
+          <hr />
+        </div>
+        <h2 class="custom-color-db text-center my-5 py-5">Projects</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 pb-5 mb-5">
+          <div class="col">
+            <div class="card h-100 shadow zoom">
+              <img
+                src="./Images/personal-portfolio.png"
+                class="card-img-top"
+                alt="personal-portfolio"
+              />
+              <div class="row card-body">
+                <h5 class="card-title custom-color-db fs-4">
+                  Personal Portfolio
+                </h5>
+                <p class="card-text">
+                  Created a static website showcasing my web portfolio using
+                  HTML, CSS, and Bootstrap.
+                </p>
+                <div class="align-self-end">
+                  <a
+                    href="#"
+                    class="btn btn-light border border-dark btn-outline-dark"
+                    >View Project
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow zoom">
+              <img
+                src="./Images/tindog.png"
+                class="card-img-top"
+                alt="tindog"
+              />
+              <div class="row card-body">
+                <h5 class="card-title custom-color-db fs-4">Tindog</h5>
+                <p class="card-text">Built a landing page using Bootstrap.</p>
+                <div class="align-self-end">
+                  <a
+                    href="./projects/TinDog Project/index.html"
+                    class="btn btn-light border border-dark btn-outline-dark"
+                    >View Project
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow zoom">
+              <img src="./Images/skins.png" class="card-img-top" alt="skins" />
+              <div class="row card-body">
+                <h5 class="card-title custom-color-db fs-4">Skins</h5>
+                <p class="card-text">
+                  Developed a small business landing page for Skins using
+                  Bootstrap.
+                </p>
+                <div class="align-self-end">
+                  <a
+                    href="./projects/Skins Project/index.html"
+                    class="btn btn-light border border-dark btn-outline-dark"
+                    >View Project
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow zoom">
+              <img
+                src="./Images/mondrian-art.png"
+                class="card-img-top"
+                alt="mondrian-art"
+              />
+              <div class="row card-body">
+                <h5 class="card-title custom-color-db fs-4">Mondrian Art</h5>
+                <p class="card-text">
+                  Recreated Piet Mondrian's art piece using CSS Grid.
+                </p>
+                <div class="align-self-end">
+                  <a
+                    href="./projects/Mondrian Project/index.html"
+                    class="btn btn-light border border-dark btn-outline-dark"
+                    >View Project
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="text-dark opacity-50">
+          <hr />
+        </div>
+        <div class="px-4 pt-5 mt-5 text-center">
+          <h2 class="fs-2 fw-bold custom-color-db text-center mt-5 mb-3">
+            Feel free to reach out to me.
+          </h2>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+              I will be delighted to connect and explore potential
+              collaborations, answer any inquiries, or discuss exciting
+              opportunities.
+            </p>
+            <div class="d-sm-flex justify-content-sm-center">
+              <a
+                href="mailto:dabukhryzmiel@gmail.com"
+                class="btn btn-dark border border-dark btn-outline-light"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-envelope-at-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"
+                  />
+                  <path
+                    d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"
+                  />
+                </svg>
+                CONTACT ME</a
+              >
+            </div>
+            <div style="height: 400px">
+              <img
+                src="./Images/robotic-hand.png"
+                class="img-fluid object-fit-md-contain h-100 w-auto"
+                alt="robotic-hand"
+                height="400"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer id="footer">
+      <div class="container-fluid bg-dark">
+        <div class="container">
+          <div class="pt-3 row row-cols-2 justify-content-between">
+            <p class="text-start px-2 fw-lighter custom-color-owl">
+              Khryzmiel Dabu © 2023
+            </p>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link text-reset py-0 px-2 fw-light zoom custom-color-owl"
+                  >Scroll to Top
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-up-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
