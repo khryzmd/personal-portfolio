@@ -3,6 +3,10 @@ Off white dark: #5e5e5e
 Off white light: #f0f0f0
 Dark Blue: #1E2F53 
 */
+:root {
+  --myself-height: 50vh;
+  --myself-width: calc(var(--myself-height));
+}
 
 body {
   background-color: #f0f0f0;
@@ -38,4 +42,86 @@ body {
 
 .zoom:hover {
   transform: scale(1.1);
+}
+
+.myself {
+  background: url("../images/myself.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: var(--myself-width);
+  height: var(--myself-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  font-family: "Gloria Hallelujah", cursive;
+  border-radius: 50%;
+}
+
+.myself::before {
+  content: "";
+  width: 104%;
+  height: 104%;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    var(--rotate),
+    #859ec7,
+    #4c5c7f 43%,
+    #1e2f53
+  );
+  position: absolute;
+  z-index: -1;
+
+
+  animation: spin 2.5s linear infinite;
+}
+
+.myself::after {
+  position: absolute;
+  content: "";
+  top: calc(var(--myself-height) / 6);
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transform: scale(0.8);
+  filter: blur(calc(var(--myself-height) / 6));
+  background-image: linear-gradient(
+    var(--rotate),
+    #859ec7,
+    #4c5c7f 43%,
+    #1e2f53
+  );
+  opacity: 1;
+  transition: opacity 0.5s;
+  animation: spin 2.5s linear infinite;
+}
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
+}
+
+.mycontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
